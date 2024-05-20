@@ -86,14 +86,14 @@ const Product = () => {
               <h3 className="display-6 my-4">${product.price}</h3>
               <p className="lead">{product.description}</p>
               <button
-                className="btn btn-outline-dark"
+                className="btn btn-outline-dark w-100"
                 onClick={() => addProduct(product)}
               >
                 Add to Cart
               </button>
-              <Link to="/cart" className="btn btn-dark mx-3">
+              {/* <Link to="/cart" className="btn btn-dark mx-3">
                 Go to Cart
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
