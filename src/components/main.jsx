@@ -4,20 +4,19 @@ const Home = () => {
   return (
     <>
       <div className="hero border-1 pb-3">
-        <div className="card bg-dark text-white border-0 mx-3">
+        <div className="card bg-dark text-white font-bold border-0 mx-3">
           <img
             className="card-img img-fluid"
-            src="./assets/main.png.jpg"
+            src="/images/gaming-banner.jpg"
             alt="Card"
-            height={500}
+            height={200}
+            style={{ opacity: "40%"}}
           />
           <div className="card-img-overlay d-flex align-items-center">
             <div className="container">
-              <h5 className="card-title fs-1 text fw-lighter">New Season Arrivals</h5>
+              <h5 className="card-title fs-1 text text-lg">Discover the Future of Tech</h5>
               <p className="card-text fs-5 d-none d-sm-block ">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Explore our latest innovations in electronics and simplify your tech life with Easy Tech Life.
               </p>
             </div>
           </div>

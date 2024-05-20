@@ -4,24 +4,17 @@ const AboutPage = () => {
   return (
     <>
       <Navbar />
-      <div className="container my-3 py-3">
+      <div className="container mx-8 my-3 py-3">
         <h1 className="text-center">About Us</h1>
         <hr />
-        <p className="lead text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-          facere doloremque veritatis odit similique sequi. Odit amet fuga nam
-          quam quasi facilis sed doloremque saepe sint perspiciatis explicabo
-          totam vero quas provident ipsam, veritatis nostrum velit quos
-          recusandae est mollitia esse fugit dolore laudantium. Ex vel explicabo
-          earum unde eligendi autem praesentium, doloremque distinctio nesciunt
-          porro tempore quis eaque labore voluptatibus ea necessitatibus
-          exercitationem tempora molestias. Ad consequuntur veniam sequi ullam
-          tempore vel tenetur soluta dolore sunt maxime aliquam corporis est,
-          quo saepe dolorem optio minus sint nemo totam dolorum! Reprehenderit
-          delectus expedita a alias nam recusandae illo debitis repellat libero,
-          quasi explicabo molestiae saepe, dolorem tempore itaque eveniet quam
-          dignissimos blanditiis excepturi harum numquam vel nihil? Ipsum
-        </p>
+        <div style={{ display: 'flex', justifyContent: 'center', flexDirection: "column",  margin: "0 auto", gap: "32px" }}>
+          <p className="" style={{ textAlign: 'center', maxWidth: '48rem', fontSize: '1.2rem',  margin: "0 auto"}}>
+          Easy Tech Life is dedicated to revolutionizing the electronic retail landscape across Africa by simplifying technology and making it more accessible to everyone. As a leading provider of electronics, Easy Tech Life aims to streamline the tech shopping experience, ensuring that cutting-edge gadgets and devices are within reach for individuals and communities throughout the continent. With a commitment to innovation and customer satisfaction, Easy Tech Life endeavors to empower Africans with the tools and knowledge to embrace technology and enhance their lives in meaningful ways.
+          </p>
+          <div style={{ width: "auto", height: "auto", margin: "0 auto" }}>
+            <img src={"/images/about-1.jpg"} alt="Africa wallpaper" width={"500"} style={{ borderRadius: "8px"}} />
+          </div>
+        </div>
 
         {/* ---- products start ---- */}
         {/* <h2 className="text-center py-4">Our Products</h2>
