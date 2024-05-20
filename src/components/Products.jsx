@@ -46,7 +46,7 @@ const Products = () => {
         {/* Banner Skeleton */}
         <div className="hero border-1 pb-3">
           <div className="card bg-dark text-white font-bold border-0 mx-3">
-            <Skeleton height={200} width="100%" />
+            <Skeleton height={400} width="100%" />
             <div className="card-img-overlay d-flex align-items-center">
               <div className="container">
                 <Skeleton height={60} width="80%" />
