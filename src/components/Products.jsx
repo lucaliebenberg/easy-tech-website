@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { useDispatch } from "react-redux";
-import { addCart } from "../redux/action";
+// import { useDispatch } from "react-redux";
+// import { addCart } from "../redux/action";
 
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
@@ -10,13 +10,13 @@ import { Link } from "react-router-dom";
 const Products = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
-  let componentMounted = true;
+  // let componentMounted = true;
 
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
-  const addProduct = (product) => {
-    dispatch(addCart(product));
-  };
+  // const addProduct = (product) => {
+  //   dispatch(addCart(product));
+  // };
 
   useEffect(() => {
     const getProducts = async () => {
@@ -32,9 +32,9 @@ const Products = () => {
       setData(products);
       setLoading(false);
 
-      return () => {
-        componentMounted = false;
-      };
+      // return () => {
+      //   componentMounted = false;
+      // };
     };
 
     getProducts();
