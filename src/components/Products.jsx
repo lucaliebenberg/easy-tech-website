@@ -43,26 +43,34 @@ const Products = () => {
   const Loading = () => {
     return (
       <>
-        <div className="col-12 py-5 text-center">
-          <Skeleton height={40} width={560} />
+        {/* Banner Skeleton */}
+        <div className="hero border-1 pb-3">
+          <div className="card bg-dark text-white font-bold border-0 mx-3">
+            <Skeleton height={200} width="100%" />
+            <div className="card-img-overlay d-flex align-items-center">
+              <div className="container">
+                <Skeleton height={60} width="80%" />
+                <Skeleton height={30} width="60%" />
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="col-md-4 col-sm-6 col-xs-8 col-12 mb-4">
-          <Skeleton height={592} />
-        </div>
-        <div className="col-md-4 col-sm-6 col-xs-8 col-12 mb-4">
-          <Skeleton height={592} />
-        </div>
-        <div className="col-md-4 col-sm-6 col-xs-8 col-12 mb-4">
-          <Skeleton height={592} />
-        </div>
-        <div className="col-md-4 col-sm-6 col-xs-8 col-12 mb-4">
-          <Skeleton height={592} />
-        </div>
-        <div className="col-md-4 col-sm-6 col-xs-8 col-12 mb-4">
-          <Skeleton height={592} />
-        </div>
-        <div className="col-md-4 col-sm-6 col-xs-8 col-12 mb-4">
-          <Skeleton height={592} />
+  
+        {/* Product Skeletons */}
+        <div className="container my-5 py-2">
+          <div className="row">
+            {[...Array(6)].map((_, index) => (
+              <div className="col-md-4 col-lg-3 col-sm-6 py-3" key={index}>
+                <div className="card">
+                  <Skeleton height={200} />
+                  <div className="card-body">
+                    <Skeleton height={20} width="80%" />
+                    <Skeleton height={20} width="60%" />
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </>
     );
