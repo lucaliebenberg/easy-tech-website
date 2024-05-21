@@ -1,5 +1,6 @@
 import React from "react";
 import { Footer, Navbar } from "../components";
+import { ContactInfo } from "../components"
 const ContactPage = () => {
   return (
     <>
@@ -49,7 +50,10 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
+      <div style={{ marginTop: "10.5rem" }}>
+        <ContactInfo />
+      </div>
     </>
   );
 };

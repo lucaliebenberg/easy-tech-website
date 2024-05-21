@@ -8,12 +8,36 @@ const AboutPage = () => {
         <h1 className="text-center">About Us</h1>
         <hr />
         <div style={{ display: 'flex', justifyContent: 'center', flexDirection: "column",  margin: "0 auto", gap: "32px" }}>
+          <h2>Welcome to New Tech</h2>
           <p className="" style={{ textAlign: 'center', maxWidth: '48rem', fontSize: '1.2rem',  margin: "0 auto"}}>
-          Easy Tech Life is dedicated to revolutionizing the electronic retail landscape across Africa by simplifying technology and making it more accessible to everyone. As a leading provider of electronics, Easy Tech Life aims to streamline the tech shopping experience, ensuring that cutting-edge gadgets and devices are within reach for individuals and communities throughout the continent. With a commitment to innovation and customer satisfaction, Easy Tech Life endeavors to empower Africans with the tools and knowledge to embrace technology and enhance their lives in meaningful ways.
+          At New Tech, we're passionate about harnessing the power of technology to drive innovation and progress. Our mission is to provide cutting-edge solutions, expert insights, and top-notch products to help individuals and businesses thrive in a rapidly evolving digital landscape.
           </p>
-          <div style={{ width: "auto", height: "auto", margin: "0 auto" }}>
+
+          <h2>Our Story</h2>
+          <p className="" style={{ textAlign: 'center', maxWidth: '48rem', fontSize: '1.2rem',  margin: "0 auto"}}>
+          Founded in 2022 New Tech has grown into a trusted hub for all things tech. We're dedicated to staying at the forefront of technological advancements, ensuring our customers receive the best guidance and support possible.
+          </p>
+          
+          <h2>Our Values</h2>
+          <p className="" style={{ textAlign: 'center', maxWidth: '48rem', fontSize: '1.2rem',  margin: "0 auto"}}>
+          <ul>
+            <li>Innovation: We embrace the latest technologies and ideas to stay ahead of the curve.</li>
+            <li>Excellence: We strive for exceptional quality in everything we do.</li>
+            <li>Customer-centric: Your success is our top priority.</li>
+            <li>Collaboration: We work together to achieve great things.</li>
+          </ul>
+          </p>
+
+          <p style={{ textAlign: 'center', fontWeight: 'bold' , maxWidth: '48rem', fontSize: '1.2rem',  margin: "0 auto"}}>
+          Join the New Tech community today and discover a world of possibilities!
+          </p>
+
+
+
+          {/* <div style={{ width: "auto", height: "auto", margin: "0 auto" }}>
             <img src={"/images/about-1.jpg"} alt="Africa wallpaper" width={"500"} style={{ borderRadius: "8px"}} />
-          </div>
+          </div> */}
+
         </div>
 
         {/* ---- products start ---- */}
