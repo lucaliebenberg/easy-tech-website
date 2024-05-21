@@ -5,7 +5,7 @@
       "price": 2000,
       "description": "Your perfect doorbell for home security, featuring 720p HD video, 2-way audio, and motion detection.",
       "category": "electronics",
-      "images": ["/images/image-1.jpg", "/images/image-1.jpg", "/images/image-1.jpg"],
+      "images": ["/images/image-1.jpg", "/images/image-1a.jpg", "/images/image-1b.jpg"],
       "rating": {
         "rate": 4.5,
         "count": 120
