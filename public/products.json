@@ -17,7 +17,7 @@
       "price": 1500,
       "description": "Advanced 1080p HD video doorbell with two-way intercom and optional chime.",
       "category": "electronics",
-      "images": ["/images/image-2.jpg", "/images/image-2.jpg", "/images/image-2.jpg"],
+      "images": ["/images/image-2.jpg", "/images/image-2a.jpg", "/images/image-2b.jpg"],
       "rating": {
         "rate": 4.0,
         "count": 100
@@ -29,7 +29,7 @@
       "price": 1000,
       "description": "Waterproof cover for your video doorbell to protect it from rain and harsh weather conditions.",
       "category": "electronics",
-      "images": ["/images/image-3.jpg", "/images/image-3.jpg", "/images/image-3.jpg"],
+      "images": ["/images/image-3.jpg", "/images/image-3a.jpg", "/images/image-3b.jpg"],
       "rating": {
         "rate": 4.7,
         "count": 80
@@ -41,7 +41,7 @@
       "price": 1000,
       "description": "Convenient 3-in-1 wireless charging station for all your Apple devices.",
       "category": "electronics",
-      "images": ["/images/image-4.jpg", "/images/image-4.jpg", "/images/image-4.jpg"],
+      "images": ["/images/image-4.jpg", "/images/image-4a.jpg", "/images/image-4b.jpg"],
       "rating": {
         "rate": 4.3,
         "count": 150
@@ -53,7 +53,7 @@
       "price": 1000,
       "description": "Compact and efficient 3-in-1 charging station for Apple devices.",
       "category": "electronics",
-      "images": ["/images/image-5.jpg", "/images/image-5.jpg", "/images/image-5.jpg"],
+      "images": ["/images/image-5.jpg", "/images/image-5a.jpg", "/images/image-5b.jpg"],
       "rating": {
         "rate": 4.2,
         "count": 130
@@ -65,7 +65,7 @@
       "price": 800,
       "description": "Multifunctional bedside lamp with Bluetooth speaker and wireless charger.",
       "category": "electronics",
-      "images": ["/images/image-6.jpg", "/images/image-6.jpg", "/images/image-6.jpg"],
+      "images": ["/images/image-6.jpg", "/images/image-6a.jpg", "/images/image-6b.jpg"],
       "rating": {
         "rate": 4.6,
         "count": 90
@@ -77,7 +77,7 @@
       "price": 800,
       "description": "Wireless keyboard and mouse set with QWERTY UK layout, suitable for various devices.",
       "category": "electronics",
-      "images": ["/images/image-7.jpg", "/images/image-7.jpg", "/images/image-7.jpg"],
+      "images": ["/images/image-7.jpg", "/images/image-7a.jpg", "/images/image-7b.jpg"],
       "rating": {
         "rate": 4.1,
         "count": 200
@@ -89,7 +89,7 @@
       "price": 800,
       "description": "Ergonomic Xbox wireless controller in Robot White.",
       "category": "electronics",
-      "images": ["/images/image-8.jpg", "/images/image-8.jpg", "/images/image-8.jpg"],
+      "images": ["/images/image-8.jpg", "/images/image-8a.jpg", "/images/image-8b.jpg"],
       "rating": {
         "rate": 4.8,
         "count": 300
@@ -101,7 +101,7 @@
       "price": 2000,
       "description": "Mini projector with Wifi 6 and Android OS, perfect for home cinema.",
       "category": "electronics",
-      "images": ["/images/image-9.jpg", "/images/image-9.jpg", "/images/image-9.jpg"],
+      "images": ["/images/image-9.jpg", "/images/image-9a.jpg", "/images/image-9b.jpg"],
       "rating": {
         "rate": 4.7,
         "count": 150
@@ -113,7 +113,7 @@
       "price": 1000,
       "description": "Portable Bluetooth speaker with RGB lights and 360° surround sound.",
       "category": "electronics",
-      "images": ["/images/image-10.jpg", "/images/image-10.jpg", "/images/image-10.jpg"],
+      "images": ["/images/image-10.jpg", "/images/image-10a.jpg", "/images/image-10b.jpg"],
       "rating": {
         "rate": 4.2,
         "count": 180
@@ -125,7 +125,7 @@
       "price": 1000,
       "description": "Double electric breast pump with multiple modes and levels for efficient breastfeeding.",
       "category": "electronics",
-      "images": ["/images/image-11.jpg", "/images/image-11.jpg", "/images/image-11.jpg"],
+      "images": ["/images/image-11.jpg", "/images/image-11a.jpg", "/images/image-11b.jpg"],
       "rating": {
         "rate": 4.5,
         "count": 100
@@ -137,7 +137,7 @@
       "price": 1800,
       "description": "Silicone protective cover for Quest 3 VR headset, providing anti-dust and anti-scratch protection.",
       "category": "electronics",
-      "images": ["/images/image-12.jpg", "/images/image-12.jpg", "/images/image-12.jpg"],
+      "images": ["/images/image-12.jpg", "/images/image-12a.jpg", "/images/image-12b.jpg"],
       "rating": {
         "rate": 4.4,
         "count": 60
@@ -149,7 +149,7 @@
       "price": 2800,
       "description": "1080p HD baby monitor with 5-inch touch display and night vision.",
       "category": "electronics",
-      "images": ["/images/image-13.jpg", "/images/image-13.jpg", "/images/image-13.jpg"],
+      "images": ["/images/image-13.jpg", "/images/image-13a.jpg", "/images/image-13b.jpg"],
       "rating": {
         "rate": 4.6,
         "count": 80
@@ -161,7 +161,7 @@
       "price": 4000,
       "description": "High-speed off-road electric scooter with powerful motor and long-lasting battery.",
       "category": "electronics",
-      "images": ["/images/image-14.jpg", "/images/image-14.jpg", "/images/image-14.jpg"],
+      "images": ["/images/image-14.jpg", "/images/image-14a.jpg", "/images/image-14b.jpg"],
       "rating": {
         "rate": 4.8,
         "count": 50
